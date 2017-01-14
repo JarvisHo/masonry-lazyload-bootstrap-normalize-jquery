@@ -1,0 +1,29 @@
+.item img{
+    margin: 0 auto;
+}
+/* 手機版 */
+.container .item {
+    width: 90%;
+    margin: 1%;
+}
+/* 平版 */
+@media (min-width: 768px) {
+    .container .item {
+        width: 45%;
+        margin: 1%;
+    }
+}
+/* 大螢幕 */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container .item {
+        width: 29%;
+        margin: 1%;
+    }
+}
+/* 寬螢幕 */
+@media (min-width: 1200px){
+    .container .item {
+        width: 22%;
+        margin: 1%;
+    }
+}
